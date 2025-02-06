@@ -2,7 +2,7 @@ const http = require('http');
 const url = require('url');
 const fileHandler = require('./modules/fileHandler');
 const utils = require('./modules/utils');
-const PORT = process.env.PORT || 3000; 
+const PORT = process.env.PORT || 3000;
 
 class Server {
     constructor(port) {

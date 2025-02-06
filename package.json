@@ -4,9 +4,7 @@
     "description": "A simple Node.js API hosted on Render",
     "main": "server.js",
     "scripts": {
-      "start": "node server.js"
+        "start": "node server.js"
     },
-    "dependencies": {
-    }
-  }
-  
+    "dependencies": {}
+}
