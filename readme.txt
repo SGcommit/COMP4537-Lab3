@@ -43,7 +43,7 @@ GET /readFile
 
 **Example Request:**
 ```sh
-GET Read api link: https://comp4537-lab3-node-api.onrender.com/readFile/
+GET Rhttps://comp4537-lab3-node-api.onrender.com/readFile/
 ```
 **Example Response:**
 ```
