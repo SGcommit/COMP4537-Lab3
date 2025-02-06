@@ -2,6 +2,7 @@ const http = require('http');
 const url = require('url');
 const fileHandler = require('./modules/fileHandler');
 const utils = require('./modules/utils');
+const PORT = process.env.PORT || 3000; 
 
 class Server {
     constructor(port) {
@@ -67,10 +68,10 @@ class Server {
     start() {
         const server = http.createServer(this.handleRequest.bind(this));
         server.listen(this.port, () => {
-            console.log(`Server running at http://localhost:${this.port}`);
+            console.log(`Server running on port ${this.port}`);
         });
     }
 }
-const apiServer = new Server(3000);
+const apiServer = new Server(PORT);
 apiServer.start();
 
